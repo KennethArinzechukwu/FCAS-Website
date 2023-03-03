@@ -184,7 +184,6 @@ html, body{
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
-  /* height: 100vh; */
   width: 100%;
 }
 #footer .footer-top {
@@ -1639,6 +1638,9 @@ td, th {
   }
   #resultBtn{
     display: block;
+  }
+  #abtImg{
+    height: 30vh;
   }
 }
 
