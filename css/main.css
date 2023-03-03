@@ -1,4 +1,4 @@
-
+i
 html, body{
   overflow-x: hidden;
 }
@@ -49,6 +49,9 @@ html, body{
   color: #fff !important;
   border: #fff;
   transition: 1s;
+}
+#countsection{
+  background-image: url('assets/images/sld_75.jpg');
 }
 
 .navBtn{
@@ -146,7 +149,7 @@ html, body{
   font-size: 18px;
   margin: 0 2px;
 }
-.team .member:hover .member-info {
+.team .member .member-info {
   background: linear-gradient(0deg, rgba(11, 35, 65, 0.9) 0%, rgba(11, 35, 65, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
@@ -155,7 +158,7 @@ html, body{
   bottom: 30px;
   transition: bottom 0.4s;
 }
-.team .member:hover .social {
+.team .member .social {
   left: 0;
   transition: left ease-in-out 0.3s;
 }
@@ -2655,5 +2658,14 @@ table.MsoTableGrid {
 @media (max-width: 768px) {
   #bitOfMarg {
     margin-bottom: 30px;
+  }
+  .studio-content{
+    text-align: center;
+  }
+  .studio-contentImg{
+    margin-bottom: 5rem;
+  }
+  .ourTeam{
+    text-align: center;
   }
 }
