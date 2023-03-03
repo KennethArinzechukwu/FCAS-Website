@@ -1432,10 +1432,6 @@ header nav ul li.menu-item-has-children:hover > div.mgamnu {
 .vw-al > a:focus {background-color: transparent;}
 /*===== Testimonials Section =====*/
 
-#testimonial  {
-  background-image: url('../assets/images/bg_testi.html')
-}
-
 .title2 {
   float: left;
   margin-bottom: 45px;
