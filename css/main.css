@@ -53,10 +53,9 @@ html, body{
 #countsection{
   background-image: url('assets/images/sld_75.jpg');
 }
-
 .navBtn{
   background-color: yellow !important;
-  color: #0b011f !important;
+  color: #022561 !important;                                
   font-weight: bold;
 }
 .schBtn :hover{
@@ -176,7 +175,7 @@ html, body{
 }
 
 .boardCardBody{
-  background-color: #0b011f;
+  background-color: #022561;
   padding: 10px 0;
 }
 .boardCardBody p{
@@ -200,7 +199,7 @@ html, body{
 
 
 .sectionGallary{
-  background-color: #0b011f;
+  background-color: #022561;
 }
 /* .gallary{
   width: 100%;
@@ -213,7 +212,7 @@ html, body{
 }
 
 #footer {
-  background: #071527;
+  background: #0b011f;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -340,6 +339,9 @@ html, body{
   color: #fff !important;
 }
 @media (max-width: 575px) {
+  *{
+    overflow-x: hidden;                              
+  }
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
@@ -535,7 +537,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family:'Roboto' sans-serif !important;
-  color: #07002c !important;
+  color: #022561 !important;
   line-height: 1.5em;
   margin-bottom: 0;
   margin-top: 0;  
@@ -1084,8 +1086,8 @@ td, th {
 
 .tour-bg {
   background: #f9f9ff;
-  background-image: linear-gradient(to right,rgba(3, 4, 41, 0.8),
-  rgba(4, 3, 44, 0.9)),url(/images/fineGroupPics.jpg);
+  background-image: linear-gradient(to right,rgb(2,37,97, 0.9),
+  rgb(2,37,97, 0.9)),url(/images/fineGroupPics.jpg);
   background-repeat: no-repeat;
   height: 450px !important;
 }
@@ -1168,7 +1170,7 @@ td, th {
 
 #acadPricipal{
   background-color: none;
-  color: #0b011f !important;
+  color: #022561 !important;
   padding: 10px 0;
 }
 
